@@ -16,4 +16,9 @@ use Illuminate\Support\Facades\Artisan;
 
 Artisan::command('inspire', function () {
     $this->comment(Inspiring::quote());
-})->purpose('Display an inspiring quote');
+})->purpose('Le futur c\'est maintenant');
+
+Artisan::command('dry', function () {
+    $this->comment('Le futur c\'est maintenant');
+})->purpose('dry comment');
+
