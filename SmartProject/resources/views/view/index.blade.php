@@ -28,7 +28,7 @@
                                         </h1>
                                         <!-- <h2 class="myh2">A single &lt;span&gt; is all you need.</h2> -->
                                     </div>
-                                    <a href="" class="btn btn-primary py-3 px-5 animated slideInDown">Qui somme nous ?</a>
+                                    <a href="smart-technologies" class="btn btn-primary py-3 px-5 animated slideInDown">Qui somme nous ?</a>
                                 </div>
                             </div>
                         </div>
@@ -148,40 +148,19 @@
                         &nbsp;&nbsp;
                         <a href="#" class="">Lire la suite <i class="fa fa-arrow-alt-circle-right"></i></a>
                         
-                        <div class="p-4 wow fadeInUp align-content-center text-left" data-wow-delay="0.1s">
-                            <div class="row">
-                                <div class="col-lg-3 wow fadeIn" data-wow-delay="0.1s">
-                                    <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary ">
-                                        <i class="fa fa-times text-white"></i>
-                                    </div>
-                                    <div class="">
-                                        <h4>No Hidden Cost</h4>
-                                    </div>
-                                    <div class="border-end d-none d-lg-block"></div>                               
+                        <div class="p-4 wow fadeInUp align-content-center text-center" data-wow-delay="0.1s">
+                            <div class="row text-center align-content-center">
+                                <div class="col-lg-4 fadeIn align-center text-center" data-wow-delay="0.3s">
+                                    <h4><i class="fa fa-users text-primary"></i> <br> Un support client expérimenté</h4>
                                 </div>
-                                
-                    <div class="border-bottom mt-4 d-block d-lg-none"></div>
-                                <div class="col-lg-3 fadeIn align-content-center text-center" data-wow-delay="0.3s">
-                                    <div class=" btn-lg-square rounded-circle bg-primary">
-                                        <i class="fa fa-users text-white"></i>
-                                    </div>
-                                    <h4>Dedicated Team</h4>
+                                <div class="col-lg-4 wow fadeIn align-content-center text-center" data-wow-delay="0.5s">
+                                    <h4> <i class="fa fa-phone text-primary"></i> <br> A votre écoute 24h/24 & 7jrs/7 </h4>
                                 </div>
-                                <div class="col-lg-3 wow fadeIn align-content-center text-center" data-wow-delay="0.5s">
-                                    <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
-                                        <i class="fa fa-phone text-white"></i>
-                                    </div>
-                                    <h4>24/7 Available</h4>
+                                <div class="col-lg-4 wow fadeInUp align-content-center text-center" data-wow-delay="0.7s">
+                                    <h4><i class="fa fa-users text-primary"></i> <br> Des partenaires solides pour vous satisfaire</h4>
                                 </div>
-                                <div class="col-lg-3 wow fadeInUp align-content-center text-center" data-wow-delay="0.7s">
-                                    <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
-                                        <i class="fa fa-phone text-white"></i>
-                                    </div>
-                                    <h4>24/7 Available</h4>
-                                </div>
-                            </div>
+                            </div>    
                         </div>
-
 
                         <!-- 
                             Smart Technologies est une société Microsoft Gold Partner implantée en Côte d’Ivoire.
@@ -208,53 +187,55 @@
 
     
 
-    <!-- <div class="border rounded p-4 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="row g-4">
-            <div class="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
-                <div class="h-100">
-                    <div class="d-flex">
-                        <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
-                            <i class="fa fa-times text-white"></i>
+    <!-- 
+        <div class="border rounded p-4 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="row g-4">
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="h-100">
+                        <div class="d-flex">
+                            <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                <i class="fa fa-times text-white"></i>
+                            </div>
+                            <div class="ps-3">
+                                <h4>No Hidden Cost</h4>
+                                <span>Clita erat ipsum lorem sit sed stet duo justo</span>
+                            </div>
+                            <div class="border-end d-none d-lg-block"></div>
                         </div>
-                        <div class="ps-3">
-                            <h4>No Hidden Cost</h4>
-                            <span>Clita erat ipsum lorem sit sed stet duo justo</span>
-                        </div>
-                        <div class="border-end d-none d-lg-block"></div>
+                        <div class="border-bottom mt-4 d-block d-lg-none"></div>
                     </div>
-                    <div class="border-bottom mt-4 d-block d-lg-none"></div>
                 </div>
-            </div>
-            <div class="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
-                <div class="h-100">
-                    <div class="d-flex">
-                        <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
-                            <i class="fa fa-users text-white"></i>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="h-100">
+                        <div class="d-flex">
+                            <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                <i class="fa fa-users text-white"></i>
+                            </div>
+                            <div class="ps-3">
+                                <h4>Dedicated Team</h4>
+                                <span>Clita erat ipsum lorem sit sed stet duo justo</span>
+                            </div>
+                            <div class="border-end d-none d-lg-block"></div>
                         </div>
-                        <div class="ps-3">
-                            <h4>Dedicated Team</h4>
-                            <span>Clita erat ipsum lorem sit sed stet duo justo</span>
-                        </div>
-                        <div class="border-end d-none d-lg-block"></div>
+                        <div class="border-bottom mt-4 d-block d-lg-none"></div>
                     </div>
-                    <div class="border-bottom mt-4 d-block d-lg-none"></div>
                 </div>
-            </div>
-            <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
-                <div class="h-100">
-                    <div class="d-flex">
-                        <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
-                            <i class="fa fa-phone text-white"></i>
-                        </div>
-                        <div class="ps-3">
-                            <h4>24/7 Available</h4>
-                            <span>Clita erat ipsum lorem sit sed stet duo justo</span>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="h-100">
+                        <div class="d-flex">
+                            <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                <i class="fa fa-phone text-white"></i>
+                            </div>
+                            <div class="ps-3">
+                                <h4>24/7 Available</h4>
+                                <span>Clita erat ipsum lorem sit sed stet duo justo</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div> -->
+    -->
 
     
 
@@ -377,6 +358,45 @@
     <!-- Service End -->
 
 
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <!-- <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Testimonial</p> -->
+                <h1 class="display-5 mb-5">Ils nous font confiance</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.3s">
+                <div class="testimonial-item">
+                    <img class="rounded-circle mb-3" src="img/partenaire/cinergie.png" alt="">
+                    <h4>CI ENERGIE</h4>
+                    <span>Côte d'Ivoire</span>
+                </div>
+                <div class="testimonial-item">
+                    <img class="rounded-circle mb-3" src="img/partenaire/capro.png" alt="">
+                    <h4>Capro Agro Industries</h4>
+                    <span>Côte d'Ivoire</span>
+                </div>
+                <div class="testimonial-item">
+                    <img class="rounded-circle mb-3" src="img/partenaire/lualaba.png" alt="">
+                    <h4>Lualaba Oil and Gaz</h4>
+                    <span>Congo</span>
+                </div>
+                <div class="testimonial-item">
+                    <img class="rounded-circle mb-3" src="img/partenaire/Puma.png" alt="">
+                    <h4>Puma Energie</h4>
+                    <span>Côte d'Ivoire</span>
+                </div>
+                <div class="testimonial-item">
+                    <img class="rounded-circle mb-3" src="img/partenaire/tulipe.png" alt="">
+                    <h4>La tulipe food</h4>
+                    <span>Côte d'Ivoire</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
     <!-- Callback Start -->
     <div class="container-fluid callback my-5 pt-5">
         <div class="container pt-5">
@@ -384,33 +404,31 @@
                 <div class="col-lg-7">
                     <div class="bg-white border rounded p-4 p-sm-5 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                            <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Get In Touch
-                            </p>
-                            <h1 class="display-5 mb-5">Request A Call-Back</h1>
+                            <h1 class="display-5 mb-5">Contactez-nous</h1>
                         </div>
                         <div class="row g-3">
                             <div class="col-sm-6">
                                 <div class="form-floating">
                                     <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                    <label for="name">Your Name</label>
+                                    <label for="name">Nom & prénoms</label>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-floating">
                                     <input type="email" class="form-control" id="mail" placeholder="Your Email">
-                                    <label for="mail">Your Email</label>
+                                    <label for="mail">Email</label>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-floating">
                                     <input type="text" class="form-control" id="mobile" placeholder="Your Mobile">
-                                    <label for="mobile">Your Mobile</label>
+                                    <label for="mobile">Téléphone</label>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-floating">
                                     <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                    <label for="subject">Subject</label>
+                                    <label for="subject">Objet</label>
                                 </div>
                             </div>
                             <div class="col-12">
@@ -421,7 +439,7 @@
                                 </div>
                             </div>
                             <div class="col-12 text-center">
-                                <button class="btn btn-primary w-100 py-3" type="submit">Submit Now</button>
+                                <button class="btn btn-primary w-100 py-3" type="submit">Envoyer</button>
                             </div>
                         </div>
                     </div>
@@ -431,175 +449,5 @@
     </div>
     <!-- Callback End -->
 
-
-    <!-- Projects Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Our Projects</p>
-                <h1 class="display-5 mb-5">We Have Completed Latest Projects</h1>
-            </div>
-            <div class="owl-carousel project-carousel wow fadeInUp" data-wow-delay="0.3s">
-                <div class="project-item pe-5 pb-5">
-                    <div class="project-img mb-3">
-                        <img class="img-fluid rounded" src="img/service-1.jpg" alt="">
-                        <a href=""><i class="fa fa-link fa-3x text-primary"></i></a>
-                    </div>
-                    <div class="project-title">
-                        <h4 class="mb-0">Financial Planning</h4>
-                    </div>
-                </div>
-                <div class="project-item pe-5 pb-5">
-                    <div class="project-img mb-3">
-                        <img class="img-fluid rounded" src="img/service-2.jpg" alt="">
-                        <a href=""><i class="fa fa-link fa-3x text-primary"></i></a>
-                    </div>
-                    <div class="project-title">
-                        <h4 class="mb-0">Cash Investment</h4>
-                    </div>
-                </div>
-                <div class="project-item pe-5 pb-5">
-                    <div class="project-img mb-3">
-                        <img class="img-fluid rounded" src="img/service-3.jpg" alt="">
-                        <a href=""><i class="fa fa-link fa-3x text-primary"></i></a>
-                    </div>
-                    <div class="project-title">
-                        <h4 class="mb-0">Financial Consultancy</h4>
-                    </div>
-                </div>
-                <div class="project-item pe-5 pb-5">
-                    <div class="project-img mb-3">
-                        <img class="img-fluid rounded" src="img/service-4.jpg" alt="">
-                        <a href=""><i class="fa fa-link fa-3x text-primary"></i></a>
-                    </div>
-                    <div class="project-title">
-                        <h4 class="mb-0">Business Loans</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Projects End -->
-
-
-    <!-- Team Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Our Team</p>
-                <h1 class="display-5 mb-5">Exclusive Team</h1>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item">
-                        <img class="img-fluid rounded" src="img/team-1.jpg" alt="">
-                        <div class="team-text">
-                            <h4 class="mb-0">Kate Winslet</h4>
-                            <div class="team-social d-flex">
-                                <a class="btn btn-square rounded-circle mx-1" href=""><i
-                                        class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square rounded-circle mx-1" href=""><i
-                                        class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item">
-                        <img class="img-fluid rounded" src="img/team-2.jpg" alt="">
-                        <div class="team-text">
-                            <h4 class="mb-0">Jac Jacson</h4>
-                            <div class="team-social d-flex">
-                                <a class="btn btn-square rounded-circle mx-1" href=""><i
-                                        class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square rounded-circle mx-1" href=""><i
-                                        class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item">
-                        <img class="img-fluid rounded" src="img/team-3.jpg" alt="">
-                        <div class="team-text">
-                            <h4 class="mb-0">Doris Jordan</h4>
-                            <div class="team-social d-flex">
-                                <a class="btn btn-square rounded-circle mx-1" href=""><i
-                                        class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square rounded-circle mx-1" href=""><i
-                                        class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Team End -->
-
-
-    <!-- Testimonial Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Testimonial</p>
-                <h1 class="display-5 mb-5">What Our Clients Say!</h1>
-            </div>
-            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.3s">
-                <div class="testimonial-item">
-                    <div class="testimonial-text border rounded p-4 pt-5 mb-5">
-                        <div class="btn-square bg-white border rounded-circle">
-                            <i class="fa fa-quote-right fa-2x text-primary"></i>
-                        </div>
-                        Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem
-                        lorem magna ut et, nonumy et labore et tempor diam tempor erat.
-                    </div>
-                    <img class="rounded-circle mb-3" src="img/testimonial-1.jpg" alt="">
-                    <h4>Client Name</h4>
-                    <span>Profession</span>
-                </div>
-                <div class="testimonial-item">
-                    <div class="testimonial-text border rounded p-4 pt-5 mb-5">
-                        <div class="btn-square bg-white border rounded-circle">
-                            <i class="fa fa-quote-right fa-2x text-primary"></i>
-                        </div>
-                        Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem
-                        lorem magna ut et, nonumy et labore et tempor diam tempor erat.
-                    </div>
-                    <img class="rounded-circle mb-3" src="img/testimonial-2.jpg" alt="">
-                    <h4>Client Name</h4>
-                    <span>Profession</span>
-                </div>
-                <div class="testimonial-item">
-                    <div class="testimonial-text border rounded p-4 pt-5 mb-5">
-                        <div class="btn-square bg-white border rounded-circle">
-                            <i class="fa fa-quote-right fa-2x text-primary"></i>
-                        </div>
-                        Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem
-                        lorem magna ut et, nonumy et labore et tempor diam tempor erat.
-                    </div>
-                    <img class="rounded-circle mb-3" src="img/testimonial-3.jpg" alt="">
-                    <h4>Client Name</h4>
-                    <span>Profession</span>
-                </div>
-                <div class="testimonial-item">
-                    <div class="testimonial-text border rounded p-4 pt-5 mb-5">
-                        <div class="btn-square bg-white border rounded-circle">
-                            <i class="fa fa-quote-right fa-2x text-primary"></i>
-                        </div>
-                        Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem
-                        lorem magna ut et, nonumy et labore et tempor diam tempor erat.
-                    </div>
-                    <img class="rounded-circle mb-3" src="img/testimonial-4.jpg" alt="">
-                    <h4>Client Name</h4>
-                    <span>Profession</span>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Testimonial End -->
 
 @endsection

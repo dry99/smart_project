@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('view/index');
 });
+route::get('/smart-technologies',function(){
+    return view('view/about');
+});

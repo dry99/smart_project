@@ -65,20 +65,20 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
-                    <a href="index.html" class="nav-item nav-link active">Accueil</a>
-                    <a href="about.html" class="nav-item nav-link">Smart Technologies</a>
+                    <a href="/" class="nav-item nav-link active">Accueil</a>
+                    <a href="smart-technologies" class="nav-item nav-link">Smart Technologies</a>
                     <a href="service.html" class="nav-item nav-link">Solutions & Services</a>
-                    <a href="service.html" class="nav-item nav-link">Partenaires</a>
+                    <!-- <a href="service.html" class="nav-item nav-link">Partenaires</a> -->
                     <a href="service.html" class="nav-item nav-link">Pourquoi ?</a>
-                    <a href="contact.html" class="nav-item nav-link">Réalisations</a>
+                    <!-- <a href="contact.html" class="nav-item nav-link">Réalisations</a> -->
                 </div>
                 <div class="d-none d-lg-flex ms-2">
-                    <a class="btn btn-light btn-sm-square rounded-circle ms-3" href="">
+                    <!-- <a class="btn btn-light btn-sm-square rounded-circle ms-3" href="">
                         <small class="fab fa-facebook-f text-primary"></small>
                     </a>
                     <a class="btn btn-light btn-sm-square rounded-circle ms-3" href="">
                         <small class="fab fa-twitter text-primary"></small>
-                    </a>
+                    </a> -->
                     <a class="btn btn-light btn-sm-square rounded-circle ms-3" href="">
                         <small class="fab fa-linkedin-in text-primary"></small>
                     </a>
@@ -95,38 +95,45 @@
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-4">Our Office</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <h4 class="text-white mb-4">Nos coordonnées</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Immeuble Jeceda 01 BP 7947 Abidjan 01 Avenue de la République, Abidjan Côte d’Ivoire</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>(+225) 20 21 74 42 <br> &nbsp; (+225) 20 21 78 15</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@smartechnologies.com</p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i
+                        <!-- <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i
                                 class="fab fa-twitter"></i></a>
                         <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i
                                 class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i
-                                class="fab fa-youtube"></i></a>
+                                class="fab fa-youtube"></i></a> -->
                         <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i
                                 class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-4">Services</h4>
-                    <a class="btn btn-link" href="">Financial Planning</a>
-                    <a class="btn btn-link" href="">Cash Investment</a>
-                    <a class="btn btn-link" href="">Financial Consultancy</a>
-                    <a class="btn btn-link" href="">Business Loans</a>
-                    <a class="btn btn-link" href="">Business Analysis</a>
+                    <h4 class="text-white mb-4">Liens</h4>
+                    <a class="btn btn-link" href="Smart-technologies">Qui somme nous ?</a>
+                    <a class="btn btn-link" href="">Nos services & solutions</a>
+                    <!-- <a class="btn btn-link" href="">Business Loans</a>
+                    <a class="btn btn-link" href="">Business Analysis</a> -->
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-4">Quick Links</h4>
-                    <a class="btn btn-link" href="">About Us</a>
+                <div class="col-lg-6 col-md-6">
+                    <h4 class="text-white mb-4">Nos partenaires</h4>
+                    <!-- <a class="btn btn-link" href="">About Us</a>
                     <a class="btn btn-link" href="">Contact Us</a>
                     <a class="btn btn-link" href="">Our Services</a>
                     <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Support</a>
+                    <a class="btn btn-link" href="">Support</a> -->
+                    <div class="row">
+                        <div class="col-4 p-2 "><img src="img/partenaire/microsft-partner.png" alt="microsft logo"></div>
+                        <div class="col-4 p-2 "><img src="img/partenaire/sophos.png" alt="sophos logo"></div>
+                        <div class="col-4 p-2 "><img src="img/partenaire/symantec.png" alt="symantec logo"></div>
+                        <div class="col-4 p-2 "><img src="img/partenaire/cisco-partner.png" alt=""></div>
+                        <div class="col-4 p-2 "><img src="img/partenaire/fortinet.png" class="w-100" alt="fortinet logo"></div>
+                        <div class="col-4 p-2 "><img src="img/partenaire/kaspersky.png" alt="kaspersky logo"></div>
+                    </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <!-- <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-4">Newsletter</h4>
                     <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
                     <div class="position-relative w-100">
@@ -135,7 +142,7 @@
                         <button type="button"
                             class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
