@@ -19,3 +19,22 @@ Route::get('/', function () {
 route::get('/smart-technologies',function(){
     return view('view/about');
 });
+/* ====== Services route ======== */
+route::get('/infogerence',function(){
+    return view('view/infogerence');
+});
+route::get('/Contrat-de-support',function(){
+    return view('view/contrat');
+});
+route::get('/Integration-Migration',function(){
+    return view('view/integration-migration');
+});
+
+/* ================= Solution route================ */
+
+route::get('/collaboration',function(){
+    return view('view/collaboration');
+});
+route::get('/services/Ressources-dediees',function(){
+    return view('view/ressources');
+});

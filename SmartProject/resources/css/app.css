@@ -335,10 +335,8 @@ h6,
 }
 
 .page-header {
-    padding-top: 12rem;
-    padding-bottom: 6rem;
-    background: url(../img/header.jpg) top left no-repeat;
-    background-size: cover;
+    padding-top: 6rem;
+    padding-bottom: 3rem;
 }
 
 .page-header .breadcrumb-item,

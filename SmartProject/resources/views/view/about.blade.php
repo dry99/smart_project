@@ -1,213 +1,166 @@
 @extends('template')
 
 @section('content')
-    <!-- Page Header Start -->
-    <div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container">
-            <!-- <h1 class="display-3 mb-4 animated slideInDown">Contact</h1> -->
-            <nav aria-label="breadcrumb animated slideInDown">
-                <ol class="breadcrumb mb-0">
-                    <li class="breadcrumb-item"><a href="/">Accueil</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Smart Technologies</li>
-                </ol>
-            </nav>
-        </div>
-    </div>
-    <!-- Page Header End -->
 
-    <!-- About Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-4 align-items-end mb-4">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <img class="img-fluid rounded" src="img/about.jpg">
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">About Us</p>
-                    <h1 class="display-5 mb-4">We Help Our Clients To Grow Their Business</h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
-                        eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
-                    </p>
-                    <div class="border rounded p-4">
-                        <nav>
-                            <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
-                                <button class="nav-link fw-semi-bold active" id="nav-story-tab" data-bs-toggle="tab"
-                                    data-bs-target="#nav-story" type="button" role="tab" aria-controls="nav-story"
-                                    aria-selected="true">Story</button>
-                                <button class="nav-link fw-semi-bold" id="nav-mission-tab" data-bs-toggle="tab"
-                                    data-bs-target="#nav-mission" type="button" role="tab" aria-controls="nav-mission"
-                                    aria-selected="false">Mission</button>
-                                <button class="nav-link fw-semi-bold" id="nav-vision-tab" data-bs-toggle="tab"
-                                    data-bs-target="#nav-vision" type="button" role="tab" aria-controls="nav-vision"
-                                    aria-selected="false">Vision</button>
-                            </div>
-                        </nav>
-                        <div class="tab-content" id="nav-tabContent">
-                            <div class="tab-pane fade show active" id="nav-story" role="tabpanel"
-                                aria-labelledby="nav-story-tab">
-                                <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam
-                                    amet diam et eos labore.</p>
-                                <p class="mb-0">Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore.
-                                    Clita erat ipsum et lorem et sit</p>
-                            </div>
-                            <div class="tab-pane fade" id="nav-mission" role="tabpanel"
-                                aria-labelledby="nav-mission-tab">
-                                <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam
-                                    amet diam et eos labore.</p>
-                                <p class="mb-0">Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore.
-                                    Clita erat ipsum et lorem et sit</p>
-                            </div>
-                            <div class="tab-pane fade" id="nav-vision" role="tabpanel" aria-labelledby="nav-vision-tab">
-                                <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam
-                                    amet diam et eos labore.</p>
-                                <p class="mb-0">Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore.
-                                    Clita erat ipsum et lorem et sit</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+<!-- Page Header Start -->
+<div class="container-fluid page-header mb-2 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container">
+        <nav aria-label="breadcrumb animated slideInDown">
+            <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item"><a href="/">Accueil</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Smart Technologies</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+<!-- Page Header End -->
+
+<!-- About Start -->
+<div class="container-fluid py-5">
+    <div class="container">
+        <div class="row g-4 align-items-end mb-4">
+            <div class="col-12 text-center">
+                <h1 class="display-5"></h1>
             </div>
-            <div class="border rounded p-4 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="row g-4">
-                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
-                        <div class="h-100">
-                            <div class="d-flex">
-                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
-                                    <i class="fa fa-times text-white"></i>
-                                </div>
-                                <div class="ps-3">
-                                    <h4>No Hidden Cost</h4>
-                                    <span>Clita erat ipsum lorem sit sed stet duo justo</span>
-                                </div>
-                                <div class="border-end d-none d-lg-block"></div>
-                            </div>
-                            <div class="border-bottom mt-4 d-block d-lg-none"></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
-                        <div class="h-100">
-                            <div class="d-flex">
-                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
-                                    <i class="fa fa-users text-white"></i>
-                                </div>
-                                <div class="ps-3">
-                                    <h4>Dedicated Team</h4>
-                                    <span>Clita erat ipsum lorem sit sed stet duo justo</span>
-                                </div>
-                                <div class="border-end d-none d-lg-block"></div>
-                            </div>
-                            <div class="border-bottom mt-4 d-block d-lg-none"></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
-                        <div class="h-100">
-                            <div class="d-flex">
-                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
-                                    <i class="fa fa-phone text-white"></i>
-                                </div>
-                                <div class="ps-3">
-                                    <h4>24/7 Available</h4>
-                                    <span>Clita erat ipsum lorem sit sed stet duo justo</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                <img class="img-fluid rounded" src="img/svg.png">
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                <h1 class="display-5 mb-4">Qui sommes-nous ?</h1>
+                <p class="mb-4 justify-content-center" style="line-height: 25px;">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Smart Technologies</b> est une société Microsoft Gold Partner et une référence reconnue dans les domaines des TIC.
+                    Implantée <b>en Côte d’Ivoire, en Guinée Conakry, au Libéria, au Sénégal, au congo et à Madagascar</b>. <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nous sommes un fournisseur complet de solutions d’affaires Microsoft, offrant des services de bout en bout
+                    pour tous vos besoins logiciels. Nous fournissons une gamme de solutions Microsoft Dynamics ERP, CRM et Business Intelligence.
+
+                    Avec plus de <b>15 années d’expérience</b> dans l’implémentation des systèmes d’information et des logiciels de gestion de la ligne des produits MBS Microsoft Dynamics ERP,
+
+
+                </p>
             </div>
         </div>
     </div>
-    <!-- About End -->
+</div>
+<!-- About End -->
 
 
-    <!-- Facts Start -->
-    <div class="container-fluid facts my-5 py-5">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-sm-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
-                    <i class="fa fa-users fa-3x text-white mb-3"></i>
-                    <h1 class="display-4 text-white" data-toggle="counter-up">1234</h1>
-                    <span class="fs-5 text-white">Happy Clients</span>
-                    <hr class="bg-white w-25 mx-auto mb-0">
+<!-- testimonialAlt Start -->
+<div class="container-xxl testimonialAlt py-5">
+    <div class="container">
+        <!-- <div class="text-center mx-auto wow fadeInUp" style="max-width: 600px;">
+                        <h1 class="display-5 mb-5">What Our Clients Say!</h1>
+                    </div> -->
+        <div class="owl-carousel  testimonialAlt-carousel wow fadeInUp">
+
+            <div class="testimonialAlt-item">
+                <div class="testimonialAlt-text border rounded p-4 pt-5 mb-5">
+                    <div class="btn-square bg-white border rounded-circle">
+                        <i class="fa fa-quote-right fa-2x text-primary"></i>
+                    </div>
+                    L’amélioration de la productivité de nos clients Entreprise par le déploiement des solutions
+                    fiables, performantes et ce, avec un rapport Qualité/Prix défiant toute concurrence.
                 </div>
-                <div class="col-sm-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
-                    <i class="fa fa-check fa-3x text-white mb-3"></i>
-                    <h1 class="display-4 text-white" data-toggle="counter-up">1234</h1>
-                    <span class="fs-5 text-white">Projects Completed</span>
-                    <hr class="bg-white w-25 mx-auto mb-0">
+                <h4>Notre mission</h4>
+            </div>
+            <div class="testimonialAlt-item">
+                <div class="testimonialAlt-text border rounded p-4 pt-5 mb-5">
+                    <div class="btn-square bg-white border rounded-circle">
+                        <i class="fa fa-quote-right fa-2x text-primary"></i>
+                    </div>
+                    Aller au-delà des attentes de nos Clients, acteurs majeurs de l’industrie et des services
+                    en leur fournissant des services de qualité, conformes aux standards internationaux.
                 </div>
-                <div class="col-sm-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
-                    <i class="fa fa-users-cog fa-3x text-white mb-3"></i>
-                    <h1 class="display-4 text-white" data-toggle="counter-up">1234</h1>
-                    <span class="fs-5 text-white">Dedicated Staff</span>
-                    <hr class="bg-white w-25 mx-auto mb-0">
+                <h4>Notre vision</h4>
+            </div>
+            <div class="testimonialAlt-item">
+                <div class="testimonialAlt-text border rounded p-4 pt-5 mb-5">
+                    <div class="btn-square bg-white border rounded-circle">
+                        <i class="fa fa-quote-right fa-2x text-primary"></i>
+                    </div>
+                    L’Ecoute du client, la Simplicité, le Respect des engagements, la Performance, un fort collectif, 
+                    la satisfaction du client, un accompagnement personnalisé.
                 </div>
-                <div class="col-sm-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
-                    <i class="fa fa-award fa-3x text-white mb-3"></i>
-                    <h1 class="display-4 text-white" data-toggle="counter-up">1234</h1>
-                    <span class="fs-5 text-white">Awards Achieved</span>
-                    <hr class="bg-white w-25 mx-auto mb-0">
-                </div>
+                <h4>Nos valeurs</h4>
             </div>
         </div>
     </div>
-    <!-- Facts End -->
+</div>
+<!-- Testimonial End -->
 
 
-    <!-- Team Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Our Team</p>
-                <h1 class="display-5 mb-5">Exclusive Team</h1>
+<!-- Facts Start -->
+<div class="container-fluid facts my-5 py-5">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-sm-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
+                <i class="fa fa-users fa-3x text-white mb-3"></i>
+                <h1 class="display-4 text-white" data-toggle="counter-up">25000</h1>
+                <span class="fs-5 text-white">Utilisateurs</span>
+                <hr class="bg-white w-25 mx-auto mb-0">
             </div>
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item">
-                        <img class="img-fluid rounded" src="img/team-1.jpg" alt="">
-                        <div class="team-text">
-                            <h4 class="mb-0">Kate Winslet</h4>
-                            <div class="team-social d-flex">
-                                <a class="btn btn-square rounded-circle mx-1" href=""><i
-                                        class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square rounded-circle mx-1" href=""><i
-                                        class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item">
-                        <img class="img-fluid rounded" src="img/team-2.jpg" alt="">
-                        <div class="team-text">
-                            <h4 class="mb-0">Jac Jacson</h4>
-                            <div class="team-social d-flex">
-                                <a class="btn btn-square rounded-circle mx-1" href=""><i
-                                        class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square rounded-circle mx-1" href=""><i
-                                        class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item">
-                        <img class="img-fluid rounded" src="img/team-3.jpg" alt="">
-                        <div class="team-text">
-                            <h4 class="mb-0">Doris Jordan</h4>
-                            <div class="team-social d-flex">
-                                <a class="btn btn-square rounded-circle mx-1" href=""><i
-                                        class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square rounded-circle mx-1" href=""><i
-                                        class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-sm-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
+                <i class="fa fa-check fa-3x text-white mb-3"></i>
+                <h1 class="display-4 text-white" data-toggle="counter-up">134</h1>
+                <span class="fs-5 text-white">Projets Completer</span>
+                <hr class="bg-white w-25 mx-auto mb-0">
+            </div>
+            <div class="col-sm-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
+                <i class="fa fa-users-cog fa-3x text-white mb-3"></i>
+                <h1 class="display-4 text-white" data-toggle="counter-up">1234</h1>
+                <span class="fs-5 text-white">Experts</span>
+                <hr class="bg-white w-25 mx-auto mb-0">
+            </div>
+            <div class="col-sm-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
+                <i class="fa fa-award fa-3x text-white mb-3"></i>
+                <h1 class="display-4 text-white" data-toggle="counter-up">10</h1>
+                <span class="fs-5 text-white">ans d'expérience</span>
+                <hr class="bg-white w-25 mx-auto mb-0">
             </div>
         </div>
     </div>
-    <!-- Team End -->
+</div>
+<!-- Facts End -->
+<!-- 
+                Smart Technologies est une société Microsoft Gold Partner implantée en Côte d’Ivoire.
+                        Nous sommes un fournisseur complet de solutions d’affaires Microsoft, offrant des services de bout en bout 
+                        pour tous vos besoins logiciels. Nous fournissons une gamme de solutions Microsoft Dynamics ERP, CRM et Business Intelligence.
+
+                        Avec plus de 15 années d’expérience dans l’implémentation des systèmes d’information et des logiciels de gestion,
+                        Smart Technologies est une référence reconnue dans les domaines des TIC et a toujours fourni des prestations de services dans les différents 
+                        pays de l’Afrique de l’Ouest et dispose des agences en Guinée Conakry, au Libéria, au Sénégal, au congo et particulièrement à Madagascar pour 
+                        accompagner un client majeur.
+                        
+                        Partenaire Microsoft, pionnier en Afrique de l’Ouest francophone de la ligne des produits MBS Microsoft Dynamics ERP, Smart 
+                        Technologies a toujours suivi le même engagement : proposer une offre globale de Nous devons notre pleine croissance à notre 
+                        expertise et surtout à notre forte capacité d’adaptation et d’innovation.
+                         
+             -->
+
+
+
+
+<!-- About Start -->
+<div class="container-fluid py-1">
+    <div class="container">
+        <div class="row g-4 align-items-end mb-4">
+            <div class="col-12 text-center">
+                <h1 class="display-5"></h1>
+            </div>
+            
+            <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.3s">
+                <h1 class="display-5 mb-4">Rejoignez-nous pour créer une force puissante pour le changement</h1>
+                <p class="mb-4 justify-content-center" style="line-height: 25px;">
+                    Que vous ayez besoin d’un partenaire pour la mise en œuvre, la mise à niveau, la migration ou 
+                    que vous ayez simplement besoin d’un support continu, <b>Smart Technologies</b> vous fournit des solutions et 
+                    des services personnalisés pour répondre à tous les besoins de votre entreprise. Avec une équipe très 
+                    diversifiée et des experts chevronnés, nous sommes capables de gérer tout type d’exigences de projet.
+                </p>
+            </div>
+            <div class="col-lg-5 wow fadeInUp text-center" data-wow-delay="0.1s">
+                <img class="img-fluid rounded w-75" src="img/smart_site.png">
+            </div>
+        </div>
+    </div>
+</div>
+
 @endsection

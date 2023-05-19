@@ -14,9 +14,7 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;500&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -35,8 +33,7 @@
 
 <body>
     <!-- Spinner Start -->
-    <div id="spinner"
-        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
     </div>
     <!-- Spinner End -->
@@ -59,17 +56,34 @@
                 <!-- <h1 class="display-5 text-primary m-0">Finanza</h1> -->
                 <img class="img img-fluid w-50 p-0" src="/img/logo_smart.png" alt="Logo Smart Technologies" srcset="">
             </a>
-            <button type="button" class="navbar-toggler me-1" data-bs-toggle="collapse"
-                data-bs-target="#navbarCollapse">
+            <button type="button" class="navbar-toggler me-1" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
                     <a href="/" class="nav-item nav-link active">Accueil</a>
                     <a href="smart-technologies" class="nav-item nav-link">Smart Technologies</a>
-                    <a href="service.html" class="nav-item nav-link">Solutions & Services</a>
-                    <!-- <a href="service.html" class="nav-item nav-link">Partenaires</a> -->
-                    <a href="service.html" class="nav-item nav-link">Pourquoi ?</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Solutions</a>
+                        <div class="dropdown-menu border-light m-0">
+                            <a href="collaboration" class="dropdown-item">Solution collaborative</a>
+                            <a href="gestion" class="dropdown-item">Solution de gestion</a>
+                            <a href="Internet" class="dropdown-item">Solution IT</a>
+                            <a href="Cloud" class="dropdown-item">Solution Cloud</a>
+                            
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                        <div class="dropdown-menu border-light m-0">
+                            <a href="infogerence" class="dropdown-item">Infogérance Audit/Conseil</a>
+                            <a href="Contrat-de-support" class="dropdown-item">Contrat de support</a>
+                            <a href="Integration-Migration" class="dropdown-item">Intégration / Migration</a>
+                           <!--  <a href="services/Etudes-des-processus" class="dropdown-item">Etude des processus opérationnels</a>
+                            <a href="services/Ressources-dediees" class="dropdown-item">Ressources dédiées</a> -->
+                        </div>
+                    </div>
+                    <a href="service.html" class="nav-item nav-link">Contactez-nous</a>
                     <!-- <a href="contact.html" class="nav-item nav-link">Réalisations</a> -->
                 </div>
                 <div class="d-none d-lg-flex ms-2">
@@ -87,9 +101,99 @@
         </nav>
     </div>
     <!-- Navbar End -->
-    
+
     @yield('content');
-    
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <!-- <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Testimonial</p> -->
+                <h1 class="display-5 mb-5">Ils nous font confiance</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.3s">
+                <div class="testimonial-item">
+                    <img class="rounded-circle mb-3" src="img/partenaire/cinergie.png" alt="">
+                    <h4>CI ENERGIE</h4>
+                    <span>Côte d'Ivoire</span>
+                </div>
+                <div class="testimonial-item">
+                    <img class="rounded-circle mb-3" src="img/partenaire/capro.png" alt="">
+                    <h4>Capro Agro Industries</h4>
+                    <span>Côte d'Ivoire</span>
+                </div>
+                <div class="testimonial-item">
+                    <img class="rounded-circle mb-3" src="img/partenaire/lualaba.png" alt="">
+                    <h4>Lualaba Oil and Gaz</h4>
+                    <span>Congo</span>
+                </div>
+                <div class="testimonial-item">
+                    <img class="rounded-circle mb-3" src="img/partenaire/Puma.png" alt="">
+                    <h4>Puma Energie</h4>
+                    <span>Côte d'Ivoire</span>
+                </div>
+                <div class="testimonial-item">
+                    <img class="rounded-circle mb-3" src="img/partenaire/tulipe.png" alt="">
+                    <h4>La tulipe food</h4>
+                    <span>Côte d'Ivoire</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Callback Start -->
+    <div class="container-fluid callback my-5 pt-5">
+        <div class="container pt-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <div class="bg-white border rounded p-4 p-sm-5 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                            <h1 class="display-5 mb-5">Contactez-nous</h1>
+                        </div>
+                        <div class="row g-3">
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                    <label for="name">Nom & prénoms</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="mail" placeholder="Your Email">
+                                    <label for="mail">Email</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="mobile" placeholder="Your Mobile">
+                                    <label for="mobile">Téléphone</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                    <label for="subject">Objet</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                            </div>
+                            <div class="col-12 text-center">
+                                <button class="btn btn-primary w-100 py-3" type="submit">Envoyer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Callback End -->
+
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
@@ -106,8 +210,7 @@
                                 class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i
                                 class="fab fa-youtube"></i></a> -->
-                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i
-                                class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -158,8 +261,7 @@
                 </div>
                 <div class="col-md-6 text-center text-md-end">
                     <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                    Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a
-                    href="https://themewagon.com">ThemeWagon</a>
+                    Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a href="https://themewagon.com">ThemeWagon</a>
                 </div>
             </div>
         </div>
@@ -168,8 +270,7 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
-            class="bi bi-arrow-up"></i></a>
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->
@@ -183,7 +284,7 @@
 
     <!-- Template Javascript --><!--
     <script src="ressourcesjs/main.js"></script>  -->
-    
+
     <script src="js/main.js"></script>
 </body>
 

@@ -161,21 +161,6 @@
                                 </div>
                             </div>    
                         </div>
-
-                        <!-- 
-                            Smart Technologies est une société Microsoft Gold Partner implantée en Côte d’Ivoire.
-                        Nous sommes un fournisseur complet de solutions d’affaires Microsoft, offrant des services de bout en bout 
-                        pour tous vos besoins logiciels. Nous fournissons une gamme de solutions Microsoft Dynamics ERP, CRM et Business Intelligence.
-
-                        Avec plus de 15 années d’expérience dans l’implémentation des systèmes d’information et des logiciels de gestion,
-                        Smart Technologies est une référence reconnue dans les domaines des TIC et a toujours fourni des prestations de services dans les différents 
-                        pays de l’Afrique de l’Ouest et dispose des agences en Guinée Conakry, au Libéria, au Sénégal, au congo et particulièrement à Madagascar pour 
-                        accompagner un client majeur.
-                        
-                        Partenaire Microsoft, pionnier en Afrique de l’Ouest francophone de la ligne des produits MBS Microsoft Dynamics ERP, Smart 
-                        Technologies a toujours suivi le même engagement : proposer une offre globale de Nous devons notre pleine croissance à notre 
-                        expertise et surtout à notre forte capacité d’adaptation et d’innovation.
-                         -->
                     </p>
                     
                 </div>
@@ -358,96 +343,7 @@
     <!-- Service End -->
 
 
-    <!-- Testimonial Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <!-- <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Testimonial</p> -->
-                <h1 class="display-5 mb-5">Ils nous font confiance</h1>
-            </div>
-            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.3s">
-                <div class="testimonial-item">
-                    <img class="rounded-circle mb-3" src="img/partenaire/cinergie.png" alt="">
-                    <h4>CI ENERGIE</h4>
-                    <span>Côte d'Ivoire</span>
-                </div>
-                <div class="testimonial-item">
-                    <img class="rounded-circle mb-3" src="img/partenaire/capro.png" alt="">
-                    <h4>Capro Agro Industries</h4>
-                    <span>Côte d'Ivoire</span>
-                </div>
-                <div class="testimonial-item">
-                    <img class="rounded-circle mb-3" src="img/partenaire/lualaba.png" alt="">
-                    <h4>Lualaba Oil and Gaz</h4>
-                    <span>Congo</span>
-                </div>
-                <div class="testimonial-item">
-                    <img class="rounded-circle mb-3" src="img/partenaire/Puma.png" alt="">
-                    <h4>Puma Energie</h4>
-                    <span>Côte d'Ivoire</span>
-                </div>
-                <div class="testimonial-item">
-                    <img class="rounded-circle mb-3" src="img/partenaire/tulipe.png" alt="">
-                    <h4>La tulipe food</h4>
-                    <span>Côte d'Ivoire</span>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Testimonial End -->
-
-
-    <!-- Callback Start -->
-    <div class="container-fluid callback my-5 pt-5">
-        <div class="container pt-5">
-            <div class="row justify-content-center">
-                <div class="col-lg-7">
-                    <div class="bg-white border rounded p-4 p-sm-5 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                            <h1 class="display-5 mb-5">Contactez-nous</h1>
-                        </div>
-                        <div class="row g-3">
-                            <div class="col-sm-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                    <label for="name">Nom & prénoms</label>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="form-floating">
-                                    <input type="email" class="form-control" id="mail" placeholder="Your Email">
-                                    <label for="mail">Email</label>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="mobile" placeholder="Your Mobile">
-                                    <label for="mobile">Téléphone</label>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                    <label for="subject">Objet</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a message here" id="message"
-                                        style="height: 100px"></textarea>
-                                    <label for="message">Message</label>
-                                </div>
-                            </div>
-                            <div class="col-12 text-center">
-                                <button class="btn btn-primary w-100 py-3" type="submit">Envoyer</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Callback End -->
+    
 
 
 @endsection
