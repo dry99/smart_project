@@ -83,7 +83,7 @@
                             <a href="services/Ressources-dediees" class="dropdown-item">Ressources dédiées</a> -->
                         </div>
                     </div>
-                    <a href="service.html" class="nav-item nav-link">Contactez-nous</a>
+                    <a href="contact" class="nav-item nav-link">Contactez-nous</a>
                     <!-- <a href="contact.html" class="nav-item nav-link">Réalisations</a> -->
                 </div>
                 <div class="d-none d-lg-flex ms-2">

@@ -35,6 +35,15 @@ route::get('/Integration-Migration',function(){
 route::get('/collaboration',function(){
     return view('view/collaboration');
 });
-route::get('/services/Ressources-dediees',function(){
-    return view('view/ressources');
+route::get('/gestion',function(){
+    return view('view/gestion');
+});
+route::get('/Internet',function(){
+    return view('view/Internet');
+});
+route::get('/Cloud',function(){
+    return view('view/Cloud');
+});
+route::get('/contact',function(){
+    return view('view/contact');
 });
