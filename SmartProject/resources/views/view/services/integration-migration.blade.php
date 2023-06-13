@@ -136,13 +136,13 @@
         <div class="row g-4 align-items-end mb-1">
 
             <div class="col-lg-12 wow fadeInUp text-center" data-wow-delay="0.1s">
-                <img class="img-fluid rounded w-25" src="img/smart_site.png">
+                <img class="img-fluid rounded w-25" src="/img/smart_site.png">
             </div>
             <div class="col-lg-12 wow fadeInUp text-center" data-wow-delay="0.3s">
                 <h1 class="display-5 mb-4">Découvrez notre modèle de migration</h1>
                 <span>Les experts de <b>Smart Technologies</b> utilisent un modèle opérationnel bien défini basé sur la communication ouverte et la transparence afin de mener à bien des projets de migration.</span>
                 <p class="mb-4 justify-content-center" style="line-height: 25px;">
-                    <img src="img/migration_modal.jpg" alt="">
+                    <img src="/img/migration_modal.jpg" alt="">
                 </p>
             </div>
         </div>

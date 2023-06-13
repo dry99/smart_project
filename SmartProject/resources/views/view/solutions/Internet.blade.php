@@ -91,7 +91,7 @@
             </div>
 
             <div class="col-lg-6">
-                <img src="img/securite.png" alt="" srcset="">
+                <img src="/img/securite.png" alt="" srcset="">
             </div>
             <div class="col-lg-12">
                 <div class="row text-white">
@@ -112,7 +112,7 @@
     <div class="container">
         <div class="row g-4 mb-1">
             <div class="col-lg-6">
-                <img src="img/save.png" class="w-100" alt="" srcset="">
+                <img src="/img/save.png" class="w-100" alt="" srcset="">
             </div>
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                 <h1 class="display-5 mb-4">Sauvegarde</h1>

@@ -10,7 +10,6 @@
 
     <!-- Favicon -->
     <link href="/img/logo_smart.png" rel="icon">
-
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,14 +20,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -66,19 +65,19 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Solutions</a>
                         <div class="dropdown-menu border-light m-0">
-                            <a href="collaboration" class="dropdown-item">Solution collaborative</a>
-                            <a href="gestion" class="dropdown-item">Solution de gestion</a>
-                            <a href="Internet" class="dropdown-item">Solution IT</a>
-                            <a href="Cloud" class="dropdown-item">Solution Cloud</a>
+                            <a href="solutions/collaboration" class="dropdown-item">Solution collaborative</a>
+                            <a href="solutions/gestion" class="dropdown-item">Solution de gestion</a>
+                            <a href="solutions/Internet" class="dropdown-item">Solution IT</a>
+                            <a href="solutions/Cloud" class="dropdown-item">Solution Cloud</a>
                             
                         </div>
                     </div>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
                         <div class="dropdown-menu border-light m-0">
-                            <a href="infogerence" class="dropdown-item">Infogérance Audit/Conseil</a>
-                            <a href="Contrat-de-support" class="dropdown-item">Contrat de support</a>
-                            <a href="Integration-Migration" class="dropdown-item">Intégration / Migration</a>
+                            <a href="services/infogerence" class="dropdown-item">Infogérance Audit/Conseil</a>
+                            <a href="services/Contrat-de-support" class="dropdown-item">Contrat de support</a>
+                            <a href="services/Integration-Migration" class="dropdown-item">Intégration / Migration</a>
                            <!--  <a href="services/Etudes-des-processus" class="dropdown-item">Etude des processus opérationnels</a>
                             <a href="services/Ressources-dediees" class="dropdown-item">Ressources dédiées</a> -->
                         </div>
@@ -113,27 +112,27 @@
             </div>
             <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.3s">
                 <div class="testimonial-item">
-                    <img class="rounded-circle mb-3" src="img/partenaire/cinergie.png" alt="">
+                    <img class="rounded-circle mb-3" src="/img/partenaire/cinergie.png" alt="">
                     <h4>CI ENERGIE</h4>
                     <span>Côte d'Ivoire</span>
                 </div>
                 <div class="testimonial-item">
-                    <img class="rounded-circle mb-3" src="img/partenaire/capro.png" alt="">
+                    <img class="rounded-circle mb-3" src="/img/partenaire/capro.png" alt="">
                     <h4>Capro Agro Industries</h4>
                     <span>Côte d'Ivoire</span>
                 </div>
                 <div class="testimonial-item">
-                    <img class="rounded-circle mb-3" src="img/partenaire/lualaba.png" alt="">
+                    <img class="rounded-circle mb-3" src="/img/partenaire/lualaba.png" alt="">
                     <h4>Lualaba Oil and Gaz</h4>
                     <span>Congo</span>
                 </div>
                 <div class="testimonial-item">
-                    <img class="rounded-circle mb-3" src="img/partenaire/Puma.png" alt="">
+                    <img class="rounded-circle mb-3" src="/img/partenaire/Puma.png" alt="">
                     <h4>Puma Energie</h4>
                     <span>Côte d'Ivoire</span>
                 </div>
                 <div class="testimonial-item">
-                    <img class="rounded-circle mb-3" src="img/partenaire/tulipe.png" alt="">
+                    <img class="rounded-circle mb-3" src="/img/partenaire/tulipe.png" alt="">
                     <h4>La tulipe food</h4>
                     <span>Côte d'Ivoire</span>
                 </div>
@@ -152,41 +151,44 @@
                         <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                             <h1 class="display-5 mb-5">Contactez-nous</h1>
                         </div>
-                        <div class="row g-3">
-                            <div class="col-sm-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                    <label for="name">Nom & prénoms</label>
+                        <form action="{{route('SendEmail')}}" method="post">
+                            @csrf
+                            <div class="row g-3">
+                                <div class="col-sm-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" name="name" id="name" placeholder="Your Name">
+                                        <label for="name">Nom & prénoms</label>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" name="email" id="mail" placeholder="Your Email">
+                                        <label for="mail">Email</label>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" name="phone" id="mobile" placeholder="Your Mobile">
+                                        <label for="mobile">Téléphone</label>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" name="objet" id="subject" placeholder="Subject">
+                                        <label for="subject">Objet</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" name="message" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
+                                        <label for="message">Message</label>
+                                    </div>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <button class="btn btn-primary w-100 py-3" type="submit">Envoyer</button>
                                 </div>
                             </div>
-                            <div class="col-sm-6">
-                                <div class="form-floating">
-                                    <input type="email" class="form-control" id="mail" placeholder="Your Email">
-                                    <label for="mail">Email</label>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="mobile" placeholder="Your Mobile">
-                                    <label for="mobile">Téléphone</label>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                    <label for="subject">Objet</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
-                                    <label for="message">Message</label>
-                                </div>
-                            </div>
-                            <div class="col-12 text-center">
-                                <button class="btn btn-primary w-100 py-3" type="submit">Envoyer</button>
-                            </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -228,12 +230,12 @@
                     <a class="btn btn-link" href="">Terms & Condition</a>
                     <a class="btn btn-link" href="">Support</a> -->
                     <div class="row">
-                        <div class="col-4 p-2 "><img src="img/partenaire/microsft-partner.png" alt="microsft logo"></div>
-                        <div class="col-4 p-2 "><img src="img/partenaire/sophos.png" alt="sophos logo"></div>
-                        <div class="col-4 p-2 "><img src="img/partenaire/symantec.png" alt="symantec logo"></div>
-                        <div class="col-4 p-2 "><img src="img/partenaire/cisco-partner.png" alt=""></div>
-                        <div class="col-4 p-2 "><img src="img/partenaire/fortinet.png" class="w-100" alt="fortinet logo"></div>
-                        <div class="col-4 p-2 "><img src="img/partenaire/kaspersky.png" alt="kaspersky logo"></div>
+                        <div class="col-4 p-2 "><img src="/img/partenaire/microsft-partner.png" alt="microsft logo"></div>
+                        <div class="col-4 p-2 "><img src="/img/partenaire/sophos.png" alt="sophos logo"></div>
+                        <div class="col-4 p-2 "><img src="/img/partenaire/symantec.png" alt="symantec logo"></div>
+                        <div class="col-4 p-2 "><img src="/img/partenaire/cisco-partner.png" alt=""></div>
+                        <div class="col-4 p-2 "><img src="/img/partenaire/fortinet.png" class="w-100" alt="fortinet logo"></div>
+                        <div class="col-4 p-2 "><img src="/img/partenaire/kaspersky.png" alt="kaspersky logo"></div>
                     </div>
                 </div>
                 <!-- <div class="col-lg-3 col-md-6">
@@ -276,16 +278,16 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="/lib/wow/wow.min.js"></script>
+    <script src="/lib/easing/easing.min.js"></script>
+    <script src="/lib/waypoints/waypoints.min.js"></script>
+    <script src="/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="/lib/counterup/counterup.min.js"></script>
 
     <!-- Template Javascript --><!--
     <script src="ressourcesjs/main.js"></script>  -->
 
-    <script src="js/main.js"></script>
+    <script src="/js/main.js"></script>
 </body>
 
 </html>

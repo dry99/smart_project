@@ -129,7 +129,7 @@
                         Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem
                         lorem magna ut et, nonumy et labore et tempor diam tempor erat.
                     </div>
-                    <img class="rounded-circle mb-3" src="img/testimonial-1.jpg" alt="">
+                    <img class="rounded-circle mb-3" src="/img/testimonial-1.jpg" alt="">
                     <h4>Client Name</h4>
                     <span>Profession</span>
                 </div>
@@ -141,7 +141,7 @@
                         Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem
                         lorem magna ut et, nonumy et labore et tempor diam tempor erat.
                     </div>
-                    <img class="rounded-circle mb-3" src="img/testimonial-2.jpg" alt="">
+                    <img class="rounded-circle mb-3" src="/img/testimonial-2.jpg" alt="">
                     <h4>Client Name</h4>
                     <span>Profession</span>
                 </div>
@@ -153,7 +153,7 @@
                         Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem
                         lorem magna ut et, nonumy et labore et tempor diam tempor erat.
                     </div>
-                    <img class="rounded-circle mb-3" src="img/testimonial-3.jpg" alt="">
+                    <img class="rounded-circle mb-3" src="/img/testimonial-3.jpg" alt="">
                     <h4>Client Name</h4>
                     <span>Profession</span>
                 </div>
@@ -165,7 +165,7 @@
                         Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem
                         lorem magna ut et, nonumy et labore et tempor diam tempor erat.
                     </div>
-                    <img class="rounded-circle mb-3" src="img/testimonial-4.jpg" alt="">
+                    <img class="rounded-circle mb-3" src="/img/testimonial-4.jpg" alt="">
                     <h4>Client Name</h4>
                     <span>Profession</span>
                 </div>

@@ -23,7 +23,7 @@
                 <h1 class="display-5"></h1>
             </div>
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                <img class="img-fluid rounded" src="img/svg.png">
+                <img class="img-fluid rounded" src="/img/svg.png">
             </div>
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                 <h1 class="display-5 mb-4">Qui sommes-nous ?</h1>
@@ -157,7 +157,7 @@
                 </p>
             </div>
             <div class="col-lg-5 wow fadeInUp text-center" data-wow-delay="0.1s">
-                <img class="img-fluid rounded w-75" src="img/smart_site.png">
+                <img class="img-fluid rounded w-75" src="/img/smart_site.png">
             </div>
         </div>
     </div>

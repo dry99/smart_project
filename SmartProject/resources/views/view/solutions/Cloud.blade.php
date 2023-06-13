@@ -56,27 +56,27 @@
         </div>
         <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.3s">
             <div class="testimonial-item">
-                <img class="rounded-circle mb-3" src="img/partenaire/exchange.png" alt="">
+                <img class="rounded-circle mb-3" src="/img/partenaire/exchange.png" alt="">
                 <h4>Microsoft Exchange</h4>
             </div>
             <div class="testimonial-item">
-                <img class="rounded-circle mb-3" src="img/partenaire/oneDrive.png" alt="">
+                <img class="rounded-circle mb-3" src="/img/partenaire/oneDrive.png" alt="">
                 <h4>Microsoft OneDrive</h4>
             </div>
             <div class="testimonial-item">
-                <img class="rounded-circle mb-3" src="img/partenaire/skype.png" alt="">
+                <img class="rounded-circle mb-3" src="/img/partenaire/skype.png" alt="">
                 <h4>Skype entreprise</h4>
             </div>
             <div class="testimonial-item">
-                <img class="rounded-circle mb-3" src="img/partenaire/sharepoint.png" alt="">
+                <img class="rounded-circle mb-3" src="/img/partenaire/sharepoint.png" alt="">
                 <h4>Sharepoint Online</h4>
             </div>
             <div class="testimonial-item">
-                <img class="rounded-circle mb-3" src="img/partenaire/office.jpg" alt="">
+                <img class="rounded-circle mb-3" src="/img/partenaire/office.jpg" alt="">
                 <h4>Microsoft Office Pro</h4>
             </div>
             <div class="testimonial-item">
-                <img class="rounded-circle mb-3" src="img/partenaire/yammer.jpg" alt="">
+                <img class="rounded-circle mb-3" src="/img/partenaire/yammer.jpg" alt="">
                 <h4>Microsoft Yammer</h4>
             </div>
         </div>
@@ -142,7 +142,7 @@
                 </p>
             </div>
             <div class="col-lg-6">
-                <img src="img/backup.png" class="w-100" alt="" srcset="">
+                <img src="/img/backup.png" class="w-100" alt="" srcset="">
             </div>
         </div>
     </div>

@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,31 +20,37 @@ Route::get('/', function () {
 route::get('/smart-technologies',function(){
     return view('view/about');
 });
+
+route::get('/contact',function(){
+    return view('view/contact');
+});
 /* ====== Services route ======== */
-route::get('/infogerence',function(){
-    return view('view/infogerence');
+route::get('services/infogerence',function(){
+    return view('view.services.infogerence');
 });
-route::get('/Contrat-de-support',function(){
-    return view('view/contrat');
+route::get('services/Contrat-de-support',function(){
+    return view('view.services.contrat');
 });
-route::get('/Integration-Migration',function(){
-    return view('view/integration-migration');
+route::get('services/Integration-Migration',function(){
+    return view('view.services.integration-migration');
 });
 
 /* ================= Solution route================ */
 
-route::get('/collaboration',function(){
-    return view('view/collaboration');
+route::get('solutions/collaboration',function(){
+    return view('view.solutions.collaboration');
 });
-route::get('/gestion',function(){
-    return view('view/gestion');
+route::get('solutions/gestion',function(){
+    return view('view.solutions.gestion');
 });
-route::get('/Internet',function(){
-    return view('view/Internet');
+route::get('solutions/Internet',function(){
+    return view('view.solutions.Internet');
 });
-route::get('/Cloud',function(){
-    return view('view/Cloud');
+route::get('solutions/Cloud',function(){
+    return view('view.solutions.Cloud');
 });
-route::get('/contact',function(){
-    return view('view/contact');
-});
+
+/* */
+route::post('contact',[
+    ContactController::class,'index'
+])->name('SendEmail');

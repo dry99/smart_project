@@ -21,7 +21,7 @@
     <div class="container">
         <div class="row g-4  align-items-center ">
             <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
-                <img src="img/sharepoint.png" alt="">
+                <img src="/img/sharepoint.png" alt="">
             </div>
             <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="row">
@@ -58,51 +58,51 @@
                 <div class="row">
                     <div class="col-lg-6 p-1 ">
                         <div class="row bg-white rounded m-1 p-1">
-                            <div class="col-lg-3 text-end"><img style="width: 50%;" src="img/icons/brain.png"></div>
+                            <div class="col-lg-3 text-end"><img style="width: 50%;" src="/img/icons/brain.png"></div>
                             <div class="col-lg-9 fw-bold ">PROTÉGEZ LES DONNÉES DE VOTRE ENTREPRISE</div>
                         </div>
                     </div>
                     <div class="col-lg-6 p-1 ">
                         <div class="row bg-white rounded m-1 p-1">
-                            <div class="col-lg-3 text-end"><img style="width: 50%;" src="img/icons/data-science.png"></div>
+                            <div class="col-lg-3 text-end"><img style="width: 50%;" src="/img/icons/data-science.png"></div>
                             <div class="col-lg-9 fw-bold ">AMÉLIOREZ VOTRE GESTION DE PROJET</div>
                         </div>
                     </div>
                     <div class="col-lg-6 p-1">
                         <div class="row bg-white rounded m-1 p-1">
                             <div class="col-lg-3 text-end">
-                                <img style="width: 50%;" src="img/icons/Learning.png"> &nbsp;&nbsp;&nbsp;
+                                <img style="width: 50%;" src="/img/icons/Learning.png"> &nbsp;&nbsp;&nbsp;
                             </div>
                             <div class="col-lg-9 fw-bold ">INTRA/EXTRA/INTERNET</div>
                         </div>
                     </div>
                     <div class="col-lg-6 p-1">
                         <div class="row bg-white rounded m-1 p-1">
-                            <div class="col-lg-3 text-end"><img style="width: 50%;" src="img/icons/business.png"></div>
+                            <div class="col-lg-3 text-end"><img style="width: 50%;" src="/img/icons/business.png"></div>
                             <div class="col-lg-9 fw-bold ">RÉSEAU COLLABORATIF D’ENTREPRISE</div>
                         </div>
                     </div>
                     <div class="col-lg-6 p-1">
                         <div class="row bg-white rounded m-1 p-1">
-                            <div class="col-lg-3 text-end"><img style="width: 50%;" src="img/icons/technology.png"></div>
+                            <div class="col-lg-3 text-end"><img style="width: 50%;" src="/img/icons/technology.png"></div>
                             <div class="col-lg-9 fw-bold ">PARTAGEZ INSTANTANÉMENT VOS FICHIERS EXCEL</div>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="row bg-white rounded m-1 p-1">
-                            <div class="col-lg-3 text-end"><img style="width: 50%;" src="img/icons/artificial-intelligence.png"></div>
+                            <div class="col-lg-3 text-end"><img style="width: 50%;" src="/img/icons/artificial-intelligence.png"></div>
                             <div class="col-lg-9 fw-bold ">SYNCHRONISEZ AVEC DES SITES SHAREPOINT</div>
                         </div>
                     </div>
                     <div class="col-lg-6 p-1">
                         <div class="row bg-white rounded m-1 p-1">
-                            <div class="col-lg-3 text-end"><img style="width: 50%;" src="img/icons/folder.png"></div>
+                            <div class="col-lg-3 text-end"><img style="width: 50%;" src="/img/icons/folder.png"></div>
                             <div class="col-lg-9 fw-bold ">RECHERCHEZ L’INFORMATION QUE VOUS SOUHAITEZ EN UN CLIC</div>
                         </div>
                     </div>
                     <div class="col-lg-6 p-1">
                         <div class="row bg-white rounded m-1 p-1">
-                            <div class="col-lg-3 text-end"><img style="width: 50%;" src="img/icons/learning.png"></div>
+                            <div class="col-lg-3 text-end"><img style="width: 50%;" src="/img/icons/learning.png"></div>
                             <div class="col-lg-9  fw-bold  ">ACCÉDEZ PLUS FACILEMENT AUX OUTILS DONT VOUS AVEZ BESOIN, QUAND VOUS EN AVEZ BESOIN</div>
                         </div>
                     </div>
@@ -125,7 +125,7 @@
                 </span>
             </div>
             <div class="col-lg-6">
-                <img src="img/crm.png" class="w-100" alt="" srcset="">
+                <img src="/img/crm.png" class="w-100" alt="" srcset="">
             </div>
         </div>
     </div>
@@ -155,77 +155,77 @@
         <div class="row mb-3">
             <div class="col-lg-4">
                 <div class="row">
-                    <div class="col-lg-3 text-end"><img style="width: 50%;" src="img/icons/brain.png"></div>
+                    <div class="col-lg-3 text-end"><img style="width: 50%;" src="/img/icons/brain.png"></div>
                     <div class="col-lg-9 fw-bold">Vision à 360° du client</div>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="row">
-                    <div class="col-lg-3 text-end"><img style="width: 50%;" src="img/icons/data-science.png"></div>
+                    <div class="col-lg-3 text-end"><img style="width: 50%;" src="/img/icons/data-science.png"></div>
                     <div class="col-lg-9 fw-bold">Analyses et reporting</div>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="row">
                     <div class="col-lg-3 text-end">
-                        <img style="width: 50%;" src="img/icons/Learning.png"> &nbsp;&nbsp;&nbsp;
+                        <img style="width: 50%;" src="/img/icons/Learning.png"> &nbsp;&nbsp;&nbsp;
                     </div>
                     <div class="col-lg-9 fw-bold">Gestion marketing avancée</div>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="row">
-                    <div class="col-lg-3 text-end"><img style="width: 50%;" src="img/icons/business.png"></div>
+                    <div class="col-lg-3 text-end"><img style="width: 50%;" src="/img/icons/business.png"></div>
                     <div class="col-lg-9 fw-bold">Pilotage de l’activité commerciale</div>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="row">
-                    <div class="col-lg-3 text-end"><img style="width: 50%;" src="img/icons/technology.png"></div>
+                    <div class="col-lg-3 text-end"><img style="width: 50%;" src="/img/icons/technology.png"></div>
                     <div class="col-lg-9 fw-bold">Gestion de l’activité quotidienne</div>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="row">
-                    <div class="col-lg-3 text-end"><img style="width: 50%;" src="img/icons/artificial-intelligence.png"></div>
+                    <div class="col-lg-3 text-end"><img style="width: 50%;" src="/img/icons/artificial-intelligence.png"></div>
                     <div class="col-lg-9 fw-bold">Gestion des activités Marketing</div>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="row">
-                    <div class="col-lg-3 text-end"><img style="width: 50%;" src="img/icons/folder.png"></div>
+                    <div class="col-lg-3 text-end"><img style="width: 50%;" src="/img/icons/folder.png"></div>
                     <div class="col-lg-9 fw-bold">Gestion des opportunités, devis, commandes et factures</div>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="row">
-                    <div class="col-lg-3 text-end"><img style="width: 50%;" src="img/icons/learning.png"></div>
+                    <div class="col-lg-3 text-end"><img style="width: 50%;" src="/img/icons/learning.png"></div>
                     <div class="col-lg-9  fw-bold  ">Gestion globale du Service Client (incidents, contrats, SLA)</div>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-12">
-                <img src="img/marketing.png" alt="">
+                <img src="/img/marketing.png" alt="">
             </div>
             <div class="col-lg-12">
 
                 <div class="row">
                     <div class="col-lg-4 p-1 text-center">
                         <button type="button" class="btn btn-primary text-center  p-3" data-bs-toggle="modal" data-bs-target="#marketing">
-                            <img style="width: 15%;" src="img/icons/brain-white.png"><br>
+                            <img style="width: 15%;" src="/img/icons/brain-white.png"><br>
                             <b>MICROSOFT DYNAMICS CRM MARKETING</b>
                         </button>
                     </div>
                     <div class="col-lg-4 p-1 text-center">
                         <button type="button" class="btn btn-primary text-center  p-3" data-bs-toggle="modal" data-bs-target="#client">
-                            <img style="width: 15%;" src="img/icons/data-science.png"><br>
+                            <img style="width: 15%;" src="/img/icons/data-science.png"><br>
                             <b>MICROSOFT DYNAMICS CRM SERVICE CLIENT</b>
                         </button>
                     </div>
                     <div class="col-lg-4 p-1 text-center">
                         <button type="button" class="btn btn-primary text-center  p-3" data-bs-toggle="modal" data-bs-target="#vente">
-                            <img style="width: 15%;" src="img/icons/online-analytical-white.png"><br>
+                            <img style="width: 15%;" src="/img/icons/online-analytical-white.png"><br>
                             <b>MICROSOFT DYNAMICS CRM VENTES</b>
                         </button>
                     </div>

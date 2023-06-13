@@ -24,7 +24,7 @@
                 <h1 class="display-5"></h1>
             </div>
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                <img class="img-fluid rounded" src="img/infogerance.png">
+                <img class="img-fluid rounded" src="/img/infogerance.png">
             </div>
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                 <h1 class="display-5 mb-4">INFOGÉRANCE AUDIT/CONSEIL</h1>
@@ -59,7 +59,7 @@
                 </span>
             </div>
             <div class="col-sm-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
-                <i class="fa fa-users fa-3x text-white mb-3"></i><br>
+                <i class="fa fa-arrows-alt fa-3x text-white mb-3"></i><br>
                 <span class="fs-5 h1 text-white">Optimisation</span>
                 <hr class="bg-white w-25 mx-auto mb-0">
                 <span class="text-white">
@@ -68,7 +68,7 @@
                 </span>
             </div>
             <div class="col-sm-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
-                <i class="fa fa-users fa-3x text-white mb-3"></i><br>
+                <i class="fa fa-map-marker fa-3x text-white mb-3" aria-hidden="true"></i><br>
                 <span class="fs-5 h1 text-white">Disponibilité</span>
                 <hr class="bg-white w-25 mx-auto mb-0">
                 <span class="text-white">
@@ -76,7 +76,7 @@
                 </span>
             </div>
             <div class="col-sm-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
-                <i class="fa fa-users fa-3x text-white mb-3"></i><br>
+                <i class="fa fa-clock fa-3x text-white mb-3"></i><br>
                 <span class="fs-5 h1 text-white">Prise en charge rapide </span>
                 <hr class="bg-white w-25 mx-auto mb-0">
                 <span class="text-white">
@@ -109,7 +109,7 @@
                 </p>
             </div>
             <div class="col-lg-6 wow fadeInUp text-center" data-wow-delay="0.1s">
-                <img class="img-fluid rounded" src="img/work.png">
+                <img class="img-fluid rounded" src="/img/work.png">
             </div>
         </div>
     </div>

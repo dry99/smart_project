@@ -21,7 +21,7 @@
     <div class="container">
         <div class="row g-4  align-items-center ">
             <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.1s">
-                <img src="img/nav.png" alt="">
+                <img src="/img/nav.png" alt="">
             </div>
             <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="row">
@@ -89,7 +89,7 @@
                 </p>
             </div>
             <div class="col-lg-6">
-                <img src="img/dynamics.png" class="w-100" alt="" srcset="">
+                <img src="/img/dynamics.png" class="w-100" alt="" srcset="">
             </div>
         </div>
     </div>
@@ -156,7 +156,7 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <img src="img/PAIE.png" class="w-100" alt="" srcset="">
+                <img src="/img/PAIE.png" class="w-100" alt="" srcset="">
             </div>
         </div>
     </div>
