@@ -230,12 +230,12 @@
                     <a class="btn btn-link" href="">Terms & Condition</a>
                     <a class="btn btn-link" href="">Support</a> -->
                     <div class="row">
-                        <div class="col-4 p-2 "><img src="/img/partenaire/microsft-partner.png" alt="microsft logo"></div>
-                        <div class="col-4 p-2 "><img src="/img/partenaire/sophos.png" alt="sophos logo"></div>
-                        <div class="col-4 p-2 "><img src="/img/partenaire/symantec.png" alt="symantec logo"></div>
-                        <div class="col-4 p-2 "><img src="/img/partenaire/cisco-partner.png" alt=""></div>
-                        <div class="col-4 p-2 "><img src="/img/partenaire/fortinet.png" class="w-100" alt="fortinet logo"></div>
-                        <div class="col-4 p-2 "><img src="/img/partenaire/kaspersky.png" alt="kaspersky logo"></div>
+                        <div class="col-6 col-lg-4 p-1  "><img class="w-75 " src="/img/partenaire/microsft-partner.png" alt="microsft logo"></div>
+                        <div class="col-6 col-lg-4 p-1  "><img class="w-75 " src="/img/partenaire/sophos.png" alt="sophos logo"></div>
+                        <div class="col-6 col-lg-4 p-1  "><img class="w-75 " src="/img/partenaire/symantec.png" alt="symantec logo"></div>
+                        <div class="col-6 col-lg-4 p-1  "><img class="w-75 " src="/img/partenaire/cisco-partner.png" alt=""></div>
+                        <div class="col-6 col-lg-4 p-1  "><img class="w-75 " src="/img/partenaire/fortinet.png" class="w-100" alt="fortinet logo"></div>
+                        <div class="col-6 col-lg-4 p-1  "><img class="w-75 " src="/img/partenaire/kaspersky.png" alt="kaspersky logo"></div>
                     </div>
                 </div>
                 <!-- <div class="col-lg-3 col-md-6">
@@ -272,8 +272,8 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
-
+<!--     <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+ -->
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

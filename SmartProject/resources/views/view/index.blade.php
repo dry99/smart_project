@@ -3,8 +3,9 @@
 @section('content')
 
     <!-- Carousel Start -->
-    <div class="container-fluid p-0 mb-5 wow fadeIn" data-wow-delay="0.1s">
-        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="container-fluid  p-0 mb-0 mb-lg-5 wow fadeIn" data-wow-delay="0.1s">
+
+        <div id="header-carousel" class="carousel slide carousel-fade d-none d-lg-block" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="w-100" src="/img/carousel-1.png" alt="Image">
@@ -33,6 +34,24 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div id="carouselExampleControls" class="carousel slide d-lg-none d-block" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bg-dark" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="bg-dark" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="bg-dark" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="/img/carousel-4.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="/img/carousel-5.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="/img/carousel-3.jpg" class="d-block w-100" alt="...">
                 </div>
             </div>
         </div>
